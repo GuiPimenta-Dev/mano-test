@@ -5,4 +5,4 @@ def test_lambda_handler():
 
     response = lambda_handler(None, None)
 
-    assert response["body"] == json.dumps({"message": "Hello World!"})
+    assert response["body"] == json.dumps({"message": "Hello Mano!"})
